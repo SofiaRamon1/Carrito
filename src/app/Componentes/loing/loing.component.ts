@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-loing',
@@ -7,4 +8,15 @@ import { Component } from '@angular/core';
 })
 export class LoingComponent {
 
+  constructor(private router:Router){}
+  ngOnInit(): void {
+  }
+  navegacionreg()
+  {
+    this.router.navigate(['registrar'])
+  }
+  navegacioning()
+  {
+    this.router.navigate(['ingresar'])
+  }
 }
