@@ -7,24 +7,28 @@ import { Route, Router } from '@angular/router';
   styleUrls: ['./loing.component.css']
 })
 export class LoingComponent implements OnInit {
+nombre:any
+correo:any
+contrasena: any
 
-
-
-  constructor(private router:Router){
-  }
+  constructor(private router:Router){}
   ngOnInit(): void {
-    localStorage.clear();
+    
+  }
+  datos(){
+
   }
 
-  almacenar(){
-      }
+  navegacion(){
+console.log(this.correo)
+console.log(this.contrasena)
+if(this.correo='Lilian' && this.contrasena=='lilian.ramonl.est@gmail.com'){
+  this.router.navigate(['tienda'])
+}else{
+  this.router.navigate(['error'])
+}
+  }
+  
 
-  navegacionreg()
-  {
-    this.router.navigate(['registrar'])
-  }
-  navegacioning()
-  {
-    this.router.navigate(['ingresar'])
-  }
+
 }

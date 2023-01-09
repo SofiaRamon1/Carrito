@@ -18,9 +18,9 @@
         <div class="formulario">
             <h2>Iniciar Sesión</h2>
             <form>
-                <input type="text" placeholder="Usuario" required>
-                <input type="password" placeholder="Contraseña" required>
-               <button (click)="almacenar()"(click)="navegacionreg()"> Iniciar Sesión</button> 
+                <input type="email" placeholder="Usuario" required (ngModel)]="correo">
+                <input type="password" placeholder="Contraseña" required [(ngModel)]="contrasena">
+               <button (click)="navegacion()"> Iniciar Sesión</button> 
             </form>
         </div>
     <br>
