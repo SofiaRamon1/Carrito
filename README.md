@@ -1,5 +1,7 @@
 # Carrito
-
+Para el ingreso se debe de tomar en cuenta que 
+el Usuario es : lilian.ramonl.est@uets.edu.ec
+la contraseña: 1234
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
 
 ## Development server
