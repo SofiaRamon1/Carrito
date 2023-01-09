@@ -24,6 +24,15 @@ ti5:any
 ti6: any
 ti7: any
 ti8: any
+pre1:any =22
+pre2:any =30
+pre3:any =14
+pre4:any =27
+pre5:any =16
+pre6:any =32
+pre7:any =25
+pre8:any =21
+
   ngOnInit(): void {
     this.recuperar()
   }
