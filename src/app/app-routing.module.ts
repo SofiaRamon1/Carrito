@@ -10,7 +10,7 @@ import { UsuComponent } from './Componentes/usu/usu.component';
 
 const routes: Routes = [
 {
-  path: 'registrar', component: UsuComponent
+  path: 'error', component: UsuComponent
 },
 {
   path:'ingresar', component: TiendaComponent
