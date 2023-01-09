@@ -22,7 +22,7 @@ contrasena: any
   navegacion(){
 console.log(this.correo)
 console.log(this.contrasena)
-if(this.correo='Lilian' && this.contrasena=='lilian.ramonl.est@gmail.com'){
+if(this.correo='lilian.ramonl.est@gmail.com' && this.contrasena=='1234'){
   this.router.navigate(['tienda'])
 }else{
   this.router.navigate(['error'])
