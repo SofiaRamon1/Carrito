@@ -9,6 +9,7 @@ import { TiendaComponent } from './Componentes/tienda/tienda.component';
 import { UsuComponent } from './Componentes/usu/usu.component';
 
 const routes: Routes = [
+  
 {
   path: 'error', component: UsuComponent
 },
