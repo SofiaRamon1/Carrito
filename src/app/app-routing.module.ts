@@ -20,6 +20,9 @@ const routes: Routes = [
 },
 {
   path: 'facturar', component: CarComponent
+},
+{
+  path: 'compra', component: FacturaComponent
 }
 ];
 
