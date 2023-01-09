@@ -109,8 +109,15 @@ m8:any
                     this.m1= " "
                   }
 
+                  
+  }
+  borrar(){
+    localStorage.clear();
   }
   nav2(){
     this.router.navigate(['comprar'])
+  }
+  nav3(){
+    this.router.navigate(['tienda'])
   }
 }
