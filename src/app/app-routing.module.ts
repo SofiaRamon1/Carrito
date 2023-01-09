@@ -13,10 +13,13 @@ const routes: Routes = [
   path: 'error', component: UsuComponent
 },
 {
-  path:'ingresar', component: TiendaComponent
+  path:'tienda', component: TiendaComponent
 },
 {
-  path: 'guardado', component: LoingComponent
+  path: 'ingresar', component: LoingComponent
+},
+{
+  path: 'facturar', component: CarComponent
 }
 ];
 
